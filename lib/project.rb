@@ -11,5 +11,4 @@ class Project
     @backers << backer
     backer.backed_projects << self          #adds the project to the backers @backed_projects array
   end
-
 end
